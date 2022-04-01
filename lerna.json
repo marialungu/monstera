@@ -10,5 +10,10 @@
       "--no-package-lock"
     ]
   },
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "verifyAccess": false
+    }
+  }
 }
