@@ -4,17 +4,17 @@
     background-color: #F1C4C8;
     color: #182e47;
     border: none;
-    border-radius: 18px;
-    height: 54px;
-    width: 140px;
-    font-size: 16px;
+    border-radius: 1.12rem;
+    height: 3.38rem;
+    width: 8.75rem;
+    font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
 
 .ButtonTertiary {
     background-color: transparent;
-    border: 1px solid #F1C4C8;
+    border: 0.1rem solid #F1C4C8;
     color: #F1C4C8;
 }
 
@@ -28,10 +28,10 @@
 }
 
 .ButtonMedium {
-    border-radius: 15px;
-    height: 48px;
-    width: 120px;
-    font-size: 14px;
+    border-radius: 0.93rem;
+    height: 3rem;
+    width: 7.5rem;
+    font-size: 0.87rem;
 }
 
 .ButtonFullWidth {
