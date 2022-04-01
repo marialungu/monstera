@@ -2,7 +2,7 @@ import React from 'react';
 import cx from 'clsx';
 import styles from './styles.css'
 
-const Text = ({ children, className, type, disabled, ...rest }) => {
+const Text = ({ children, className, type = "body", disabled = "false", ...rest }) => {
     const classes = cx(
         styles.BasicText,
         {

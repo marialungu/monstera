@@ -2,7 +2,7 @@ import React from 'react';
 import cx from 'clsx';
 import styles from './styles.css'
 
-const Button = ({ children, className, type, size, onClick, disabled, fullWidth, ...rest }) => {
+const Button = ({ children, className, type = "primary", size = "normal", onClick, disabled = "false", fullWidth = "false", ...rest }) => {
     const classes = cx(
         styles.Button,
         {
