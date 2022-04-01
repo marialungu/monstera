@@ -14,10 +14,6 @@ module.exports = {
         lernaConfig.version = version;
         fs.writeFileSync(lernaConfigPath, JSON.stringify(lernaConfig, null, 2));
 
-        // update `src/lib/version.js`
-        const versionPath = path.resolve(dir, 'src/lib/version.js');
-        fs.writeFileSync(versionPath, `export default "${version}";\n`);
-
         // update dependencies (if you're using yarn workspace)
         exec(`yarn workspace example-foo add my-lib@${version}`);
         exec(`yarn workspace example-bar add my-lib@${version}`);
