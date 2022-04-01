@@ -7,6 +7,7 @@ const Button = ({ children, className, type, size, onClick, disabled, fullWidth,
         styles.Button,
         {
             [styles.ButtonSecondary]: type === 'secondary',
+            [styles.ButtonTertiary]: type === 'tertiary',
             [styles.ButtonMedium]: size === 'medium',
             [styles.ButtonFullWidth]: fullWidth === true,
             [styles.ButtonDisabled]: disabled === true,

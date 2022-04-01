@@ -12,6 +12,12 @@
     font-weight: 600;
 }
 
+.ButtonTertiary {
+    background-color: transparent;
+    border: 1px solid #F1C4C8;
+    color: #F1C4C8;
+}
+
 .ButtonSecondary {
     background-color: #f9eff0;
     color: #42576e;
