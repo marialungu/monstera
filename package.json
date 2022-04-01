@@ -6,7 +6,7 @@
   "repository": "https://github.com/marialungu/monstera.git",
   "author": "<heymarialungu@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "lerna run build",
     "storybook": "start-storybook -p 6006",
