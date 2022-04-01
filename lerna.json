@@ -2,11 +2,13 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.0",
+  "version": "0.1.0",
   "useWorkspaces": true,
   "stream": true,
   "bootstrap": {
-    "npmClientArgs": ["--no-package-lock"]
+    "npmClientArgs": [
+      "--no-package-lock"
+    ]
   },
   "npmClient": "yarn"
 }

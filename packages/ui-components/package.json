@@ -1,6 +1,6 @@
 {
   "name": "@monstera/ui-components",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "main package for monstera ui components library",
   "author": "Maria <heymarialungu@gmail.com>",
   "homepage": "https://github.com/marialungu/monstera#readme",
@@ -12,10 +12,7 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "dist",
-    "lib"
-  ],
+  "files": ["dist", "lib"],
   "publishConfig": {
     "access": "public"
   },
@@ -31,10 +28,10 @@
     "url": "https://github.com/marialungu/monstera/issues"
   },
   "dependencies": {
-    "@monstera/ui-components-button": "^0.0.0",
-    "@monstera/ui-components-text": "^0.0.0"
+    "@monstera/ui-components-button": "^0.1.0",
+    "@monstera/ui-components-text": "^0.1.0"
   },
   "devDependencies": {
-    "@monstera/ui-components-builder": "^0.0.0"
+    "@monstera/ui-components-builder": "^0.1.0"
   }
 }
