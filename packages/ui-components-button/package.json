@@ -1,0 +1,41 @@
+{
+  "name": "@monstera/ui-components-button",
+  "version": "1.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Maria <heymarialungu@gmail.com>",
+  "license": "ISC",
+  "main": "lib/ui-components-button.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marialungu/monstera.git"
+  },
+  "scripts": {
+    "build": "ui-components-builder",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/marialungu/monstera/issues"
+  },
+  "homepage": "https://github.com/marialungu/monstera#readme",
+  "devDependencies": {
+    "@monstera/ui-components-builder": "^1.0.0",
+    "react": "^18.0.0"
+  },
+  "peerDependencies": {
+    "react": "17.x"
+  },
+  "dependencies": {
+    "clx": "^1.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "monstera",
+  "version": "1.0.0",
+  "description": "UI Components library",
+  "main": "index.js",
+  "repository": "https://github.com/marialungu/monstera.git",
+  "author": "<heymarialungu@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build":  "lerna run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
