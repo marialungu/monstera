@@ -30,7 +30,8 @@
   "homepage": "https://github.com/marialungu/monstera#readme",
   "devDependencies": {
     "@monstera/ui-components-builder": "^1.0.0",
-    "react": "^18.0.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "peerDependencies": {
     "react": "17.x"

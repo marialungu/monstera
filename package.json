@@ -8,12 +8,23 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build":  "lerna run build"
+    "build": "lerna run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@storybook/addon-actions": "^6.4.20",
+    "@storybook/addon-essentials": "^6.4.20",
+    "@storybook/addon-interactions": "^6.4.20",
+    "@storybook/addon-links": "^6.4.20",
+    "@storybook/react": "^6.4.20",
+    "@storybook/testing-library": "^0.0.9",
+    "babel-loader": "^8.2.4",
     "lerna": "^4.0.0"
-  }
+  },
+  "dependencies": {}
 }
