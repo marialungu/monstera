@@ -36,5 +36,6 @@
   },
   "devDependencies": {
     "@monstera/ui-components-builder": "^1.0.3"
-  }
+  },
+  "gitHead": "eb9dad55961dfa2bb95270f7393df5776bf6a083"
 }
