@@ -15,7 +15,6 @@ module.exports = {
         fs.writeFileSync(lernaConfigPath, JSON.stringify(lernaConfig, null, 2));
 
         // update dependencies (if you're using yarn workspace)
-        exec(`yarn workspace example-foo add my-lib@${version}`);
-        exec(`yarn workspace example-bar add my-lib@${version}`);
+        exec(`yarn workspace packages/* add monstera@${version}`);
     },
 };
