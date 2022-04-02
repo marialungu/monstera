@@ -1,6 +1,6 @@
 {
   "name": "monstera",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "UI Components library",
   "main": "index.js",
   "repository": "https://github.com/marialungu/monstera.git",
