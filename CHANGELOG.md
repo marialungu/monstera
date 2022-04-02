@@ -1,23 +1,5 @@
 ## [1.0.5](https://github.com/marialungu/monstera/compare/v1.1.0...v1.0.5) (2022-04-02)
 
-
-
-# [1.1.0](https://github.com/marialungu/monstera/compare/v1.0.4...v1.1.0) (2022-04-02)
-
-
-
-## [1.0.4](https://github.com/marialungu/monstera/compare/v1.1.0...v1.0.4) (2022-04-02)
-
-
-
-# [1.1.0](https://github.com/marialungu/monstera/compare/v1.0.4...v1.1.0) (2022-04-02)
-
-
-
-## [1.0.4](https://github.com/marialungu/monstera/compare/v1.0.3...v1.0.4) (2022-04-01)
-
-
-
 # 0.1.0 (2022-04-01)
 
 

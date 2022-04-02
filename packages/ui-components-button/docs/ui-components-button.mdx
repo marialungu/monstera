@@ -1,0 +1,58 @@
+import { Canvas, Story } from "@storybook/addon-docs";
+
+# Button
+
+Buttons are one of the primary components. They are used in an app for the actions a user can perform, such as submitting forms or applying filters.a
+
+
+## Button Types
+
+There are 3 main types of buttons, `primary`, `secondary` or `tertiary`
+
+**Primary** state is used for main actions, such as `Save` or `Login`
+
+**Secondary** state is used for secondary actions, such as `Cancel` or `Delete`
+
+**Tertiary** state is used for navigation and links
+
+<Canvas>
+<Story id="button--primary" />
+<Story id="button--secondary" />
+<Story id="button--tertiary" />
+</Canvas>
+
+All buttons can be `disabled` in order to show that they are not usable
+
+<Canvas>
+<Story id="button--disabled" />
+</Canvas>
+
+## Button Sizes
+
+There are 3 available sizes for buttons, `large`, `medium` or `small`
+
+<Canvas>
+<Story id="button--large" />
+<Story id="button--medium" />
+<Story id="button--small" />
+</Canvas>
+
+There is also the option to have a `full-width` button that can fill its parent container.
+
+<Canvas>
+<Story id="button--full-width" />
+</Canvas>
+
+## Props
+
+A list of all available props
+
+| Name | Type | Default Value | Available values | Description |
+| --- | --- | --- | --- | --- |
+| `type` | string | `primary` | `primary` <br/> `secondary` <br/> `tertiary` | Applies styling according to styleguide |
+| `label` | string | `''` | - | The label of the button |
+| `size` | string | `medium` | `large` <br/> `medium`  <br/> `small` | Defines the size of the button according to styleguide |
+| `disabled` | bool | `false` | `true` <br /> `false` | Disables button when value is `true`|
+| `fullWidth` | bool | `false` | `true` <br /> `false` | Button takes the width of the container when value is `true` |
+| `onClick` | function | `null` | - | Callback function for `click` event |
+| `className` | string  | `''` | `custom` | Component can accept custom styling |

@@ -31,9 +31,9 @@ const MyApp = () => (
 | --- | --- | --- | --- | --- |
 | `type` | string | `primary` | `primary` <br/> `secondary` <br/> `tertiary` | Applies styling according to styleguide |
 | `label` | string | `''` | - | The label of the button |
-| `size` | string | `medium` | `large` <br/> `medium`  <br/> `small` | Defines the size of the button |
+| `size` | string | `medium` | `large` <br/> `medium`  <br/> `small` | Defines the size of the button according to styleguide |
 | `disabled` | bool | `false` | `true` <br /> `false` | Disables button when value is `true`|
-| `fullWidth` | bool | `false` | `true` <br /> `false` | Button takes the width of the container |
+| `fullWidth` | bool | `false` | `true` <br /> `false` | Button takes the width of the container when value is `true` |
 | `onClick` | function | `null` | - | Callback function for `click` event |
 | `className` | string  | `''` | `custom` | Component can accept custom styling |
 
