@@ -1,6 +1,6 @@
 {
   "name": "monstera",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "UI Components library",
   "main": "index.js",
   "repository": "https://github.com/marialungu/monstera.git",
@@ -14,9 +14,6 @@
     "release": "shipjs prepare",
     "publish": "lerna publish"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@storybook/addon-actions": "^6.4.20",
