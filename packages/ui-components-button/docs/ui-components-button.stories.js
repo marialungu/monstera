@@ -1,11 +1,28 @@
 import React from 'react';
 import { Button } from '../lib/ui-components-button';
 
-export default { title: 'Button' };
+export default {
+    title: 'Button',
+    component: Button
+};
 
-export const primary = () => <Button type="primary">Get started</Button>;
-export const secondary = () => <Button type="secondary">Get started</Button>;
-export const tertiary = () => <Button type="tertiary">Get started</Button>;
-export const medium = () => <Button size="medium">Get started</Button>;
-export const fullWidth = () => <div style={{width: "400px"}}><Button type="secondary" fullWidth>Get started</Button></div>;
-export const disabled = () => <Button disabled>Get started</Button>;
+const label = "Check-in"
+
+export const ButtonTypes = () => (
+    <>
+        <Button type="primary" label={label} />
+        <Button type="secondary" label={label} />
+        <Button type="tertiary" label={label} />
+    </>
+)
+
+export const Sizes = () => (
+    <>
+        <Button size="large" label={label} />
+        <Button size="medium" label={label} />
+        <Button size="small" label={label} />
+    </>
+)
+
+export const FullWidth = () => <div style={{width: "400px"}}><Button fullWidth label={label} /></div>
+export const Disabled = () => <Button disabled label={label} />

@@ -30,7 +30,8 @@ const MyApp = () => (
 | Name | Type | Default Value | Available values | Description |
 | --- | --- | --- | --- | --- |
 | `type` | string | `primary` | `primary` <br/> `secondary` <br/> `tertiary` | Applies styling according to styleguide |
-| `size` | string | `large` | `large` <br/> `medium` | Defines the size of the button |
+| `label` | string | `''` | - | The label of the button |
+| `size` | string | `medium` | `large` <br/> `medium`  <br/> `small` | Defines the size of the button |
 | `disabled` | bool | `false` | `true` <br /> `false` | Disables button when value is `true`|
 | `fullWidth` | bool | `false` | `true` <br /> `false` | Button takes the width of the container |
 | `onClick` | function | `null` | - | Callback function for `click` event |
