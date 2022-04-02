@@ -17,4 +17,7 @@ module.exports = {
         // update dependencies (if you're using yarn workspace)
         // exec(`yarn workspace packages/* add monstera@${version}`);
     },
+    publishCommand() {
+        return `yarn publish --access public`;
+    },
 };
