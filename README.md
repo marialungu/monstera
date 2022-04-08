@@ -1,11 +1,12 @@
 # Monstera
-A React UI Components library built with Lerna and deployed with shipjs 
-
+A React UI Components library built with Lerna and deployed with shipjs.
 ![node](https://img.shields.io/badge/node-v17.8.0-blue) ![npm](https://img.shields.io/badge/npm-v8.5.5-blue) ![license](https://img.shields.io/badge/License-MIT-green) [![deploy](https://img.shields.io/badge/deploy-🛳%20Ship.js-blue?style=flat)](https://github.com/algolia/shipjs)
 
 ## About 
 
 A simple UI components library for React, created with Lerna and showcased with React Storybook
+
+Find live documentation [here](https://marialungu.github.io/monstera).
 
 ## Installation guide
 

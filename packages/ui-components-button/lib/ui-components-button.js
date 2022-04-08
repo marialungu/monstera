@@ -4,7 +4,6 @@ import styles from './styles.css'
 
 const Button = (props) => {
     const { className, label = '', type = "primary", size = "medium", onClick, disabled = "false", fullWidth = "false", ...rest } = props;
-    console.log(type, label)
     const classes = cx(
         styles.Button,
         {
