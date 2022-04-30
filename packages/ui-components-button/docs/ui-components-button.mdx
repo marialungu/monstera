@@ -43,6 +43,14 @@ There is also the option to have a `full-width` button that can fill its parent 
 <Story id="button--full-width" />
 </Canvas>
 
+## Button with icon
+
+Buttons may include an icon, before the label. For this components library we use [`react-feather` icons](https://feathericons.com/) but you can use any `svg` icons
+
+<Canvas>
+<Story id="button--with-icon" />
+</Canvas>
+
 ## Props
 
 A list of all available props
@@ -56,3 +64,4 @@ A list of all available props
 | `fullWidth` | bool | `false` | `true` <br /> `false` | Button takes the width of the container when value is `true` |
 | `onClick` | function | `null` | - | Callback function for `click` event |
 | `className` | string  | `''` | `custom` | Component can accept custom styling |
+| `icon` | svg | `''` | `any svg` | SVG Icon for the button |
