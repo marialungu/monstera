@@ -6,10 +6,13 @@
     border: none;
     border-radius: 0.93rem;
     height: 3rem;
-    width: 7.5rem;
+    width: 7.9rem;
     font-size: 0.875rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .ButtonTertiary {
@@ -30,14 +33,14 @@
 .ButtonLarge {
     border-radius: 1.063rem;
     height: 3.38rem;
-    width: 8.75rem;
+    width: 9rem;
     font-size: 1rem;
 }
 
 .ButtonSmall {
     border-radius: 0.81rem;
     height: 2.5rem;
-    width: 6.25rem;
+    width: 6.65rem;
     font-size: 0.75rem;
 }
 

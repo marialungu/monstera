@@ -3,7 +3,7 @@ import cx from 'clsx';
 import styles from './styles.css'
 
 const Button = (props) => {
-    const { className, label = '', type = "primary", size = "medium", onClick, disabled = "false", fullWidth = "false", ...rest } = props;
+    const { className, label = '', type = "primary", size = "medium", onClick, disabled = "false", fullWidth = "false", Icon, ...rest } = props;
     const classes = cx(
         styles.Button,
         {
@@ -18,6 +18,7 @@ const Button = (props) => {
     );
     return (
         <button onClick={onClick} {...rest} className={classes}>
+            {Icon && <Icon />}
             {label}
         </button>
     );
