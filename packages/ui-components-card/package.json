@@ -1,13 +1,13 @@
 {
-  "name": "@monstera/ui-components",
+  "name": "@monstera/ui-components-card",
   "version": "1.3.1",
-  "description": "main package for monstera ui components library",
-  "author": "Maria <heymarialungu@gmail.com>",
+  "description": "Monstera Card Component",
+  "author": "marialungu <anauna.lungu@gmail.com>",
   "homepage": "https://github.com/marialungu/monstera#readme",
   "license": "ISC",
-  "main": "dist/ui-components.cjs.js",
-  "module": "dist/ui-components.esm.js",
-  "src": "lib/ui-components.js",
+  "main": "dist/ui-components-card.cjs.js",
+  "module": "dist/ui-components-card.esm.js",
+  "src": "lib/ui-components-card.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -30,13 +30,15 @@
   "bugs": {
     "url": "https://github.com/marialungu/monstera/issues"
   },
-  "dependencies": {
-    "@monstera/ui-components-button": "^1.3.0",
-    "@monstera/ui-components-card": "^1.3.1",
-    "@monstera/ui-components-text": "^1.0.6"
-  },
   "devDependencies": {
-    "@monstera/ui-components-builder": "^1.0.6"
+    "@monstera/ui-components-builder": "^1.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "gitHead": "c7b875459569b5432b65e9f18039c67318ce7c83"
+  "peerDependencies": {
+    "react": "17.x"
+  },
+  "dependencies": {
+    "clx": "^1.0.0"
+  }
 }
